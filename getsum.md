@@ -1,3 +1,4 @@
+# how check sha256 on windows
 Verify with 
 SHA256 checksum de5b410dd0813e5904aeed082bfc3d9a8167e0f93b296f52d80bee2dfec9f13d 
 or 
