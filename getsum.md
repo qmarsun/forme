@@ -4,7 +4,7 @@ or
 GPG signature by 0xf7a49b0ec.
 =======================================
 Get-FileHash "C:\...\Downloads\msys2-x86_64-20221216.exe"
-PS C:\Users\..\Downloads> Get-FileHash "C:\Users\KumarSundaram\Downloads\msys2-x86_64-20221216.exe"
+PS C:\Users\..\Downloads> Get-FileHash "C:\Users\...\Downloads\msys2-x86_64-20221216.exe"
 
 Algorithm       Hash                                                                   Path
 ---------       ----                                                                   ----
