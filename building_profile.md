@@ -1,6 +1,5 @@
 
 - Resume 
--     for 1st job you need one or more following 
 - Linkedin
 - github
 - opensource projects
