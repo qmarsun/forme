@@ -16,7 +16,7 @@
 - Participate in programming competition
       
 - Paten filing 
-- 
+
 #Skill preparation
 - Preparig Programming interview - Leetcode 
 - English skills ( Talking, listening,Reading and Writting )
