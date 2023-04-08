@@ -1,5 +1,6 @@
 
-- Resume
+- Resume 
+-     for 1st job you need one or more following 
 - Linkedin
 - github
 - opensource projects
@@ -13,8 +14,8 @@
       - https://signalprocessingsociety.org/sites/default/files/uploads/newsletter/docs/toc/nov20/J-STSP%20October%202020,%20Vol.%2014,%20No.%206.pdf
       - https://ieeexplore.ieee.org/author/37088514028
       
-- Participate in programming competition
+- Participate in programming competition - hackathon
       
-- Paten filing 
+- Paten filing - getting patent for your idea
 
 
