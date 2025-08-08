@@ -1,3 +1,9 @@
+What Happens When You "Disable" or "Delete" a Certificate in Venafi TLS Protect?
+Action	Effect
+Disable	Prevents Venafi from managing or renewing the cert, but it still exists. Does not revoke or remove it from systems unless specifically configured.
+Delete	Removes the certificate object from Venafi inventory. If automated workflows exist (e.g., cert deployment), it may stop further action.
+Revoke	Actually tells the CA to revoke the cert (if Venafi is integrated with the CA and revocation is configured).
+
 Skip to content
 You said:
 I have questions SSL/TLS certification revoke process
