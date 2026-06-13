@@ -1,0 +1,94 @@
+kmega@KMVD_Clover MINGW64 /c/forkumar
+$ diff -r mssql-jdbc kumar-works-mssql-jdbc | grep diff
+skip diff -r mssql-jdbc/.git/HEAD kumar-works-mssql-jdbc/.git/HEAD
+skip diff -r mssql-jdbc/.git/config kumar-works-mssql-jdbc/.git/config
+Binary files mssql-jdbc/.git/index and kumar-works-mssql-jdbc/.git/index differ
+skip diff -r mssql-jdbc/.git/logs/HEAD kumar-works-mssql-jdbc/.git/logs/HEAD
+skip diff -r mssql-jdbc/.git/logs/refs/heads/main kumar-works-mssql-jdbc/.git/logs/refs/heads/main
+skip diff -r mssql-jdbc/.git/logs/refs/remotes/origin/HEAD kumar-works-mssql-jdbc/.git/logs/refs/remotes/origin/HEAD
+skip diff -r mssql-jdbc/.git/packed-refs kumar-works-mssql-jdbc/.git/packed-refs
+skip iff -r mssql-jdbc/.git/refs/heads/main kumar-works-mssql-jdbc/.git/refs/heads/main
+skip diff -r mssql-jdbc/.github/instructions/glossary.instructions.md kumar-works-mssql-jdbc/.github/instructions/glossary.instructions.md
+skip diff -r mssql-jdbc/.github/instructions/performance-metrics.instructions.md kumar-works-mssql-jdbc/.github/instructions/performance-metrics.instructions.md
+skip diff -r mssql-jdbc/CHANGELOG.md kumar-works-mssql-jdbc/CHANGELOG.md
+skip diff -r mssql-jdbc/README.md kumar-works-mssql-jdbc/README.md
+skip diff -r mssql-jdbc/build.gradle kumar-works-mssql-jdbc/build.gradle
+skip diff -r mssql-jdbc/mssql-jdbc_auth_LICENSE kumar-works-mssql-jdbc/mssql-jdbc_auth_LICENSE
+skip diff -r mssql-jdbc/pom.xml kumar-works-mssql-jdbc/pom.xml
+skip diff -r mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/IOBuffer.java kumar-works-mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/IOBuffer.java
+diff -r mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/ISQLServerCallableStatement.java kumar-works-mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/ISQLServerCallableStatement.java
+diff -r mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/ISQLServerEnclaveProvider.java kumar-works-mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/ISQLServerEnclaveProvider.java
+diff -r mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/ISQLServerPreparedStatement.java kumar-works-mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/ISQLServerPreparedStatement.java
+diff -r mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/ISQLServerResultSet.java kumar-works-mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/ISQLServerResultSet.java
+diff -r mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/KeyStoreProviderCommon.java kumar-works-mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/KeyStoreProviderCommon.java
+diff -r mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/PerformanceLog.java kumar-works-mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/PerformanceLog.java
+diff -r mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/PerformanceLogCallback.java kumar-works-mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/PerformanceLogCallback.java
+diff -r mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLJdbcVersion.java kumar-works-mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLJdbcVersion.java
+diff -r mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerAASEnclaveProvider.java kumar-works-mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerAASEnclaveProvider.java
+diff -r mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerBulkBatchInsertRecord.java kumar-works-mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerBulkBatchInsertRecord.java
+diff -r mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerBulkCSVFileRecord.java kumar-works-mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerBulkCSVFileRecord.java
+diff -r mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerBulkCopy.java kumar-works-mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerBulkCopy.java
+diff -r mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerBulkRecord.java kumar-works-mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerBulkRecord.java
+diff -r mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerCallableStatement.java kumar-works-mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerCallableStatement.java
+diff -r mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerColumnEncryptionJavaKeyStoreProvider.java kumar-works-mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerColumnEncryptionJavaKeyStoreProvider.java
+diff -r mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerConnection.java kumar-works-mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerConnection.java
+diff -r mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerDataSource.java kumar-works-mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerDataSource.java
+diff -r mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerDatabaseMetaData.java kumar-works-mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerDatabaseMetaData.java
+diff -r mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerDriver.java kumar-works-mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerDriver.java
+diff -r mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerMSAL4JUtils.java kumar-works-mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerMSAL4JUtils.java
+diff -r mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerPreparedStatement.java kumar-works-mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerPreparedStatement.java
+diff -r mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerResource.java kumar-works-mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerResource.java
+diff -r mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerResultSet.java kumar-works-mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerResultSet.java
+diff -r mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerStatement.java kumar-works-mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerStatement.java
+diff -r mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerVSMEnclaveProvider.java kumar-works-mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/SQLServerVSMEnclaveProvider.java
+diff -r mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/ServerPortPlaceHolder.java kumar-works-mssql-jdbc/src/main/java/com/microsoft/sqlserver/jdbc/ServerPortPlaceHolder.java
+diff -r mssql-jdbc/src/main/java/microsoft/sql/DateTimeOffset.java kumar-works-mssql-jdbc/src/main/java/microsoft/sql/DateTimeOffset.java
+diff -r mssql-jdbc/src/samples/adaptive/pom.xml kumar-works-mssql-jdbc/src/samples/adaptive/pom.xml
+diff -r mssql-jdbc/src/samples/alwaysencrypted/pom.xml kumar-works-mssql-jdbc/src/samples/alwaysencrypted/pom.xml
+diff -r mssql-jdbc/src/samples/azureactivedirectoryauthentication/pom.xml kumar-works-mssql-jdbc/src/samples/azureactivedirectoryauthentication/pom.xml
+diff -r mssql-jdbc/src/samples/connections/pom.xml kumar-works-mssql-jdbc/src/samples/connections/pom.xml
+diff -r mssql-jdbc/src/samples/constrained/pom.xml kumar-works-mssql-jdbc/src/samples/constrained/pom.xml
+diff -r mssql-jdbc/src/samples/dataclassification/pom.xml kumar-works-mssql-jdbc/src/samples/dataclassification/pom.xml
+diff -r mssql-jdbc/src/samples/datatypes/pom.xml kumar-works-mssql-jdbc/src/samples/datatypes/pom.xml
+diff -r mssql-jdbc/src/samples/resultsets/pom.xml kumar-works-mssql-jdbc/src/samples/resultsets/pom.xml
+diff -r mssql-jdbc/src/samples/sparse/pom.xml kumar-works-mssql-jdbc/src/samples/sparse/pom.xml
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/AlwaysEncrypted/BulkCopySendTemporalDataTypesAsStringAETest.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/AlwaysEncrypted/BulkCopySendTemporalDataTypesAsStringAETest.java
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/AlwaysEncrypted/CallableStatementTest.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/AlwaysEncrypted/CallableStatementTest.java
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/AlwaysEncrypted/EnclaveTest.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/AlwaysEncrypted/EnclaveTest.java
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/AlwaysEncrypted/JDBCEncryptionDecryptionTest.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/AlwaysEncrypted/JDBCEncryptionDecryptionTest.java
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/AlwaysEncrypted/MSITest.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/AlwaysEncrypted/MSITest.java
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/AlwaysEncrypted/MultiUserAKVTest.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/AlwaysEncrypted/MultiUserAKVTest.java
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/AlwaysEncrypted/ParameterMetaDataCacheTest.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/AlwaysEncrypted/ParameterMetaDataCacheTest.java
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/AlwaysEncrypted/PrecisionScaleTest.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/AlwaysEncrypted/PrecisionScaleTest.java
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/AlwaysEncrypted/RegressionAlwaysEncryptedTest.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/AlwaysEncrypted/RegressionAlwaysEncryptedTest.java
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/PerformanceLogCallbackTest.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/PerformanceLogCallbackTest.java
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/TestUtils.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/TestUtils.java
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/bulkCopy/BulkCopyAllTypesTest.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/bulkCopy/BulkCopyAllTypesTest.java
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/bulkCopy/BulkCopyCSVTest.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/bulkCopy/BulkCopyCSVTest.java
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/bulkCopy/BulkCopyColumnMappingTest.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/bulkCopy/BulkCopyColumnMappingTest.java
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/bulkCopy/BulkCopyColumnOrderHintTest.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/bulkCopy/BulkCopyColumnOrderHintTest.java
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/bulkCopy/BulkCopyConnectionTest.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/bulkCopy/BulkCopyConnectionTest.java
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/bulkCopy/BulkCopyISQLServerBulkRecordTest.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/bulkCopy/BulkCopyISQLServerBulkRecordTest.java
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/bulkCopy/BulkCopyResultSetCursorTest.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/bulkCopy/BulkCopyResultSetCursorTest.java
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/bulkCopy/BulkCopyRowSetTest.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/bulkCopy/BulkCopyRowSetTest.java
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/bulkCopy/BulkCopySendTemporalDataTypesAsStringTest.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/bulkCopy/BulkCopySendTemporalDataTypesAsStringTest.java
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/bulkCopy/BulkCopyTimeoutTest.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/bulkCopy/BulkCopyTimeoutTest.java
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/bulkCopy/ISQLServerBulkRecordIssuesTest.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/bulkCopy/ISQLServerBulkRecordIssuesTest.java
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/configurableretry/ConfigurableRetryLogicTest.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/configurableretry/ConfigurableRetryLogicTest.java
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/connection/TimeoutTest.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/connection/TimeoutTest.java
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/databasemetadata/DatabaseMetaDataTest.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/databasemetadata/DatabaseMetaDataTest.java
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/resiliency/ReflectiveTests.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/resiliency/ReflectiveTests.java
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/statemachinetest/xa/XAStateTest.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/statemachinetest/xa/XAStateTest.java
+<                 // If it's a different XA error (like state error), XA is available
+<      * <li>isSameRM() behavior between different XA connections</li>
+<      * <li>Transaction isolation is maintained between different branches</li>
+<                 // SQL Server may return different error codes for invalid flags - just verify
+<      * <li>Data modifications are handled correctly under different isolation
+<      * share the same global transaction ID (gtrid) but have different branch
+<      * <li>Two branches (same gtrid, different bqual) both insert data</li>
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/unit/statement/PreparedStatementTest.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/unit/statement/PreparedStatementTest.java
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/unit/statement/StatementTest.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/jdbc/unit/statement/StatementTest.java
+diff -r mssql-jdbc/src/test/java/com/microsoft/sqlserver/testframework/Constants.java kumar-works-mssql-jdbc/src/test/java/com/microsoft/sqlserver/testframework/Constants.java
+
+kmega@KMVD_Clover MINGW64 /c/forkumar
+$
